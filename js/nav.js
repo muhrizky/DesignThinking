@@ -43,7 +43,7 @@ document.addEventListener("DOMContentLoaded", function(){
 
 //load page content
 var page = window.location.hash.substr(1);
-if (page == "") page = "home";
+if (page == "") page = "about";
 loadPage(page);
  
 function loadPage(page) {
